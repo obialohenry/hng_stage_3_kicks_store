@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hng_stage_3_kicks_store/src/components.dart';
-import 'package:hng_stage_3_kicks_store/view/components/custom_text_field.dart';
+
 import '../../../../src/config.dart';
 import '../../../../src/screens.dart';
 
@@ -59,6 +59,7 @@ class _StoreScreenState extends State<StoreScreen> {
                   children: [
                     Expanded(
                         child: CustomTextField(
+                      hintText: "Search for anything",
                       controller: _controller,
                       showSuffix: true,
                     )),

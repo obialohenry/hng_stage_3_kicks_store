@@ -15,4 +15,5 @@ class AppImages {
   static const kActiveLikedLogo = '$baseUrl/liked_icon_green.png';
   static const kActiveOrdersLogo = '$baseUrl/orders_icon_green.png';
   static const kActiveAccountLogo = '$baseUrl/account_icon_green.png';
+  static const kTrashLogo = '$baseUrl/Trash.png';
 }
